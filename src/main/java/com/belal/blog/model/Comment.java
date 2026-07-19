@@ -36,4 +36,7 @@ public class Comment {
 
     public LocalDateTime getDate() {return date;}
     public void setDate(LocalDateTime date) {this.date = date;}
+
+    public Post getPost() {return post;}
+    public void setPost(Post post) {this.post = post;}
 }
